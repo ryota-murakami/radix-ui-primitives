@@ -30,7 +30,8 @@
     "reset": "yarn clean && rm -rf node_modules .yarn/cache .parcel-cache",
     "bump:stable": "yarn version apply --all",
     "bump:next": "yarn version apply --all --prerelease",
-    "bump:check": "yarn version check"
+    "bump:check": "yarn version check",
+    "chromatic": "npx chromatic --project-token=chpt_f34a54e1383c9b2"
   },
   "dependencies": {
     "react": "^18.0.0",
@@ -185,5 +186,7 @@
   },
   "volta": {
     "node": "16.17.0"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "primitives@0.0.0"
 }
